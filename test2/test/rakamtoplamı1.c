@@ -10,7 +10,7 @@ int main(){
 
     while (sayı!=-1){
         printf ("4 basamaklı bir sayı giriniz: \n");
-        scanf_s("%d", &sayı);
+        scanf("%d", &sayı);
         if(sayı==-1){
             break;
         }
